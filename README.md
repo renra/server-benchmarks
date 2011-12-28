@@ -21,3 +21,8 @@ Go to the RoR directory and run:
 ```rails s -e production -p 3001```
 
 You should not omit the production env, otherwise your test will not be very good and you will get very slow response times. You can choose whatever port you want unless it collides with a port in use.
+
+## Coming soon
+-erlang
+-rack
+-django
