@@ -25,6 +25,11 @@ Go to the rack folder and type:
 
 ```ruby server.rb```
 
+### Sinatra
+Go to ... you know whwre you have to go, right?
+
+```ruby server.rb```
+
 ### Ruby on Rails
 Go to the RoR directory and run:
 
