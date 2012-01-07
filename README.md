@@ -26,16 +26,16 @@ Go to the rack folder and type:
 ```ruby server.rb```
 
 ### Sinatra
-Go to ... you know whwre you have to go, right?
+Go to ... you know where you have to go, right?
 
 ```ruby server.rb```
 
 ### Ruby on Rails
 Go to the RoR directory and run:
 
-```rails s -e production -p 3001```
+```rails s -e production -p 3000```
 
-You should not omit the production env, otherwise your test will not be very good and you will get very slow response times. You can choose whatever port you want unles    s it collides with a port in use.
+You should not omit the production env, otherwise your test will not be very good and you will get very slow response times. You can choose whatever port you want unless it collides with a port in use. Also some lower port numbers require root privileges to be used.
 
 ### Django
 Go to django_app (django was not allowed as an application name) and run:
