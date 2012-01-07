@@ -3,10 +3,10 @@
 A sample benchmark code using apache testing utils would be:
 
 ```
-ab -n 100 -c 100 localhost:3000/
+ab -n x -c y localhost:3000/
 ```
 
-Where n is the number of requests sent and c is their concurrency. When you start all the server technologies at once, you will want to do so on different ports, then use these ports in the uri above for testing.
+Where x is the number of requests sent and y is their concurrency. When you start all the server technologies at once, you will want to do so on different ports, then use these ports in the uri above for testing.
 
 ## How to prepare the server to run the benchmarks
 

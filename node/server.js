@@ -2,7 +2,7 @@ var http = require('http');
 var fs = require('fs');
  
 http.createServer(function (request, response) {
-  fs.readFile('../index.html', function(error, content) {
+  fs.readFile('./index.html', function(error, content) {
     if (error) {
       console.log('Error: ' + error);
         response.writeHead(500);
