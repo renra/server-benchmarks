@@ -35,9 +35,13 @@ Go to the RoR directory and run:
 
 ```rails s -e production -p 3001```
 
-You should not omit the production env, otherwise your test will not be very good and you will get very slow response times. You can choose whatever port you want unless it collides with a port in use.
+You should not omit the production env, otherwise your test will not be very good and you will get very slow response times. You can choose whatever port you want unles    s it collides with a port in use.
+
+### Django
+Go to django_app (django was not allowed as an application name) and run:
+
+```./manage.py runserver 3000```
+
 
 ## Coming soon
 - erlang
-- rack
-- django
