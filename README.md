@@ -53,33 +53,33 @@ which means they have to serve 100 requests coming at them, 10 being concurrent(
 ### The winner - Express
 I think nobody is surprised to see node.js as the winning technology. What surprised me though was the fact that this framework actually performs slightly better that bare node.js. One more reason to use it.
 
-Requests per second:    1512.45 [#/sec] (mean)
+Requests per second:    1512.45 [-] (mean)
 Time per request:       0.661 [ms] (mean, across all concurrent requests)
 
 ### Number 2 - Node.js
-Requests per second:    1373.32 [#/sec] (mean)
+Requests per second:    1373.32 [-] (mean)
 Time per request:       0.728 [ms] (mean, across all concurrent requests)
 
 ### Number 3 - Rack
 A simple rack server could be compared to the to a node.js server when it comes to complexity. Yet performs a little worse.
 
-Requests per second:    437.82 [#/sec] (mean)
+Requests per second:    437.82 [-] (mean)
 Time per request:       2.284 [ms] (mean, across all concurrent requests)
 
 ### Number 4 - Sinatra
 This framework is built on ruby just like simple Rack is, but here we see a significant performance drop. But that is expected.
 
-Requests per second:    169.91 [#/sec] (mean)
+Requests per second:    169.91 [-] (mean)
 Time per request:       5.885 [ms] (mean, across all concurrent requests)
 
 ### Number 5 - Ruby on Rails
 Right on the heels of sinatra:
-Requests per second:    149.04 [#/sec] (mean)
+Requests per second:    149.04 [-] (mean)
 Time per request:       6.710 [ms] (mean, across all concurrent requests)
 
 ### Number 6 - Django
 This python based framework surprised me the most. I was expecting it to be much faster.
-Requests per second:    76.00 [#/sec] (mean)
+Requests per second:    76.00 [-] (mean)
 Time per request:       13.157 [ms] (mean, across all concurrent requests)
 
 ## Coming soon
