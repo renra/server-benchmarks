@@ -44,14 +44,14 @@ Go to django_app (django was not allowed as an application name) and run:
 
 
 ## The Contest
-This little contest was done using lightweight development weservers that usually come with the frameworks(like WEBrick) which makes the results less valuable, but still good for comparison. The contestants will be sieged by this monster:
+This little contest was done using lightweight development webservers that usually come with the frameworks(like WEBrick) which makes the results less valuable, but still good for comparison. The contestants will be sieged by this monster:
 
 ```ab -n 100 -c 10 localhost:3000/```
 
 which means they have to serve 100 requests coming at them, 10 being concurrent(coming at the same time). I compare them by the mean value of the number of requests they can serve per second and by their response time. So let's see how these guys fare.
 
 ### The winner - Express
-I think nobody is surprised to see node.js as the winning technology. What surprised me though was the fact that this framework actually performs slightly better that bare node.js. One more reason to use it.
+I think nobody is surprised to see node.js as the winning technology. What surprised me though was the fact that this framework actually performs slightly better that bare node.js. Still wondering why that is, but it's one more reason to use it.
 
 Requests per second:    1512.45  
 Time per request:       0.661 ms  
