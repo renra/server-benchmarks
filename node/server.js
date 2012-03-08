@@ -1,17 +1,7 @@
 var http = require('http');
 var fs = require('fs');
+var resp = '<html><body>It works!</body></html>'
  
 http.createServer(function (request, response) {
-  fs.readFile('./index.html', function(error, content) {
-    if (error) {
-      console.log('Error: ' + error);
-        response.writeHead(500);
-          response.end();
-      }
-      else {
-        response.writeHead(200, { 'Content-Type': 'text/html' });
-        response.end(content, 'utf-8');
-      }
-  });
-     
+  response.end(resp)
 }).listen(3000);
